@@ -1,0 +1,13 @@
+com\meroeclinic\web\configuration\WebConfiguration.class
+com\babu\meroonlinebakery\core\entity\MasterEntity.class
+com\babu\meroonlinebakery\core\controller\SiteController.class
+com\babu\meroonlinebakery\web\admin\controller\AdminController.class
+com\meroeclinic\web\admin\controller\LogoutController.class
+com\babu\meroonlinebakery\core\controller\CRUDController.class
+com\babu\meroonlinebakery\web\AppRunner.class
+com\babu\meroonlinebakery\web\home\controller\HomeController.class
+com\meroeclinic\web\auth\controller\LoginController.class
+com\meroeclinic\web\configuration\AutomateConfiguration.class
+com\babu\meroonlinebakery\web\appointment\controller\AppointmentController.class
+com\babu\meroonlinebakery\web\appointment\entity\Appointment.class
+com\babu\meroonlinebakery\web\appointment\repository\AppointmentRepository.class
