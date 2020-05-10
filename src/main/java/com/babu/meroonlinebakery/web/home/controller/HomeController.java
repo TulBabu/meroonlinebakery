@@ -27,23 +27,23 @@ public class HomeController extends SiteController{
     }
     @GetMapping(value = "/contact")
     public String contact(){
-        return "test/contact_form/index";
+        return "contact/contact";
     }
-    @GetMapping(value = "/videoConference")
-    public String admin(){
-        return "test/videoConference/index";
+    @GetMapping(value = "/menu")
+    public String menu(){
+        return "menu/menu";
     }
-    @GetMapping(value = "/gallery")
-    public String gallery(){
-        return "test/gallery/index";
+    @GetMapping(value = "/reservation")
+    public String reservation(){
+        return "book_a_table/reservation";
     }
-    @GetMapping(value = "/doctors")
+    @GetMapping(value = "/about")
     public String doctors(){
-        return "test/doctors/index";
+        return "about/about";
     }
-    @GetMapping(value = "/departments")
-    public String departments(){
-        return "test/department/index";
+    @GetMapping(value = "/blog")
+    public String stories(){
+        return "stories/blog";
     }
     
 }

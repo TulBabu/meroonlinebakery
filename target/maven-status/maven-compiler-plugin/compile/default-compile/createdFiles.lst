@@ -1,7 +1,7 @@
-com\babu\meroonlinebakery\core\controller\CRUDController.class
-com\babu\meroonlinebakery\web\AppRunner.class
 com\babu\meroonlinebakery\web\home\controller\HomeController.class
+com\babu\meroonlinebakery\web\auth\controller\LoginController.class
 com\meroeclinic\web\configuration\AutomateConfiguration.class
 com\babu\meroonlinebakery\web\configuration\WebConfiguration.class
+com\babu\meroonlinebakery\web\AppRunner.class
 com\babu\meroonlinebakery\core\controller\SiteController.class
-com\babu\meroonlinebakery\web\auth\controller\LoginController.class
+com\babu\meroonlinebakery\core\controller\CRUDController.class
