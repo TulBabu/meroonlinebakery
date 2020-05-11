@@ -49,5 +49,13 @@ public class HomeController extends SiteController{
     public String admin(){
         return "admin/index";
     }
+    @GetMapping(value = "/bakery")
+    public String bakery(){
+        return "bakery/index";
+    }
+    @GetMapping(value = "/restaurant")
+    public String restaurant(){
+        return "restaurant/index";
+    }
     
 }
