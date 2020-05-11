@@ -45,5 +45,9 @@ public class HomeController extends SiteController{
     public String stories(){
         return "stories/blog";
     }
+    @GetMapping(value = "/admin")
+    public String admin(){
+        return "admin/index";
+    }
     
 }
